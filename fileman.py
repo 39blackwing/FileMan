@@ -11,11 +11,11 @@ class Argument(object):
     move = rename = quiet = state = False
 
     def print_help(self):
-        print("Run: Python3.7 fileman.py [Folder path] [Opinions]"
-              "Opinions:"
-              '    -m: Move duplicate files into "[Folder path]/duplicate"'
-              "    -r: Rename files"
-              "    -q: Quiet mode")
+        print("Run: Python3.7 fileman.py [Folder path] [Opinions]\n"
+              "Opinions:\n"
+              '    -m: Move duplicate files into "[Folder path]/duplicate"\n'
+              "    -r: Rename files\n"
+              "    -q: Quiet mode\n")
 
     def __init__(self):
         for i in range(1, len(sys.argv)):
